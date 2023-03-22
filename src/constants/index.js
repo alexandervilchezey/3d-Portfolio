@@ -20,11 +20,13 @@ import {
   tesla,
   eatos,
   EY,
+  gri,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  ruby,
 } from "../assets";
 
 export const navLinks = [
@@ -37,8 +39,8 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "social",
+    title: "Social",
   },
 ];
 
@@ -83,10 +85,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -107,12 +105,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "ruby",
+    icon: ruby,
   },
 ];
 
@@ -143,29 +137,15 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Project Manager",
+    company_name: "Global Reporting Initiative",
+    icon: gri,
+    iconBg: "#FFFFFF",
+    date: "Jul 2022 - Mar 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Project Manager for the Global Reporting Initiative Template generator Website",
+      "Leading the team with AGILE methodologies using SCRUM",
+      "Comunicating with the Client for feedback and testing on a live environment.",
     ],
   },
 ];

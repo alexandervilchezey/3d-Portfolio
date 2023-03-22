@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import ruby from "./tech/ruby.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -27,11 +28,16 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import eatos from "./company/eatos.png";
 import EY from "./company/EY.png";
+import gri from "./company/gri.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 import fish from "./fish.png";
+import shark from "./shark.png";
+import anglerfish from "./anglerfish.png";
+import turtle from "./turtle.png";
 
 export {
   logo,
@@ -55,14 +61,19 @@ export {
   tailwind,
   typescript,
   threejs,
+  ruby,
   meta,
   shopify,
   starbucks,
   tesla,
   eatos,
   EY,
+  gri,
   carrent,
   jobit,
   tripguide,
   fish,
+  shark,
+  anglerfish,
+  turtle,
 };
