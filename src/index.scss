@@ -275,13 +275,13 @@ $shark: 2;
 @for $i from 0 through $shark {
   img.shark:nth-child(#{$i + 1}) {
     left: calc(random(150) / 150) * 100% + 100%;
-    top: calc((random(50) + 25) / 100) * 90%;
+    top: calc((random(70) + 25) / 100) * 90%;
     opacity: calc(random(60) / 100);
     animation: movefish random(10) + 30 + s linear infinite;
   }
   img.shark:nth-child(#{($shark+1)*2 - $i}) {
     right: calc(random(150) / 150) * 100% + 100%;
-    top: calc((random(50) + 25) / 100) * 90%;
+    top: calc((random(70) + 25) / 100) * 90%;
     opacity: calc(random(60) / 100);
     animation: movefishright random(10) + 30 + s linear infinite;
     -moz-transform: scale(-1, 1);
@@ -296,7 +296,7 @@ $turtle: 2;
 @for $i from 0 through $turtle {
   img.turtle:nth-child(#{$i + 1}) {
     left: calc(random(150) / 150) * 100% + 100%;
-    top: calc((random(50) + 25) / 100) * 90%;
+    top: calc((random(70) + 25) / 100) * 90%;
     opacity: calc(random(60) / 100);
     animation: movefish random(10) + 30 + s linear infinite;
     -moz-transform: scale(-1, 1);
@@ -306,7 +306,7 @@ $turtle: 2;
   }
   img.turtle:nth-child(#{($turtle+1)*2 - $i}) {
     right: calc(random(150) / 150) * 100% + 100%;
-    top: calc((random(50) + 25) / 100) * 90%;
+    top: calc((random(70) + 25) / 100) * 90%;
     opacity: calc(random(60) / 100);
     animation: movefishright random(10) + 30 + s linear infinite;
   }

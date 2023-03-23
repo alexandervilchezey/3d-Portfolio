@@ -4,6 +4,8 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import upwork from "./upwork.png";
+import linkedIn from "./linkedIn.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -38,6 +40,7 @@ import fish from "./fish.png";
 import shark from "./shark.png";
 import anglerfish from "./anglerfish.png";
 import turtle from "./turtle.png";
+import diver from "./diver.png";
 
 export {
   logo,
@@ -76,4 +79,7 @@ export {
   shark,
   anglerfish,
   turtle,
+  diver,
+  upwork,
+  linkedIn,
 };

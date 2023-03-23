@@ -27,6 +27,9 @@ import {
   tripguide,
   threejs,
   ruby,
+  github,
+  upwork,
+  linkedIn,
 } from "../assets";
 
 export const navLinks = [
@@ -243,4 +246,23 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socials = [
+  {
+    name:"github",
+    icon: github,
+    social_link: "https://github.com/alexandervilchezey",
+  },
+  {
+    name:"upwork",
+    icon: upwork,
+    social_link:
+      "https://www.upwork.com/freelancers/~0198de5dcfcdba04a3?viewMode=1",
+  },
+  {
+    name:"linkedIn",
+    icon: linkedIn,
+    social_link: "https://www.linkedin.com/in/alexandervilchez/",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, socials };

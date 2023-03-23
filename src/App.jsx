@@ -9,6 +9,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Social,
 } from "./components";
 
 import { fish, shark, anglerfish, turtle } from "./assets";
@@ -62,7 +63,6 @@ const App = () => {
           <img src={anglerfish} className="anglerfish" />
           <img src={anglerfish} className="anglerfish" />
         </div>
-
         <Navbar />
         <Hero />
         <About />
@@ -72,9 +72,10 @@ const App = () => {
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {/*  <StarsCanvas /> */}
         </div>
       </div>
+      <Social />
     </BrowserRouter>
   );
 };
